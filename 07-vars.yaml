@@ -2,13 +2,13 @@
   host: local
   connection: local
   vars_prompt:
-  - name: username
-    prompt: "Please enter username"
-    private: flase
+    - name: username
+      prompt: "Please enter username"
+      private: flase
 
-  - name: password
-    prompt: "please enter password"
-    private: true
+    - name: password
+      prompt: "please enter password"
+      private: true
 
   tasks:
   - name: print information
